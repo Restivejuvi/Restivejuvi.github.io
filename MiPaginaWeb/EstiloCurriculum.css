@@ -1,0 +1,198 @@
+.botom{
+	flex-wrap: wrap;
+	width:85%;
+	margin-left:15px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 450px;
+    font-size: 20px;
+    color: #000000;
+    background:linear-gradient(#3399ff, #004d99);
+    border-radius: 10px;
+    border: 2px solid black;
+	font-family:college;
+	text-align: center;
+}
+
+.botom:hover{
+	background:white;
+	transform: scale(1.1);
+}
+	
+section{
+	background-image: url(fond.jpg);
+	font-size: 20px;
+	font-weight: 450px;
+	margin-left:145px;
+	text-align:center;
+	width: 1000px;
+    height: 930px;
+	flex-direction:column;
+	border-radius: 30px;
+	border: 25px solid transparent;
+    padding: 15px;
+    border-image: url(margold.png) 25 stretch;
+	color: white;
+	text-shadow: 2px 2px 5px green;
+ }
+ 
+#menu{	
+	width:90%;
+	position: relative;
+	display:flex;
+	align-content:space-between;
+	margin: auto;
+	align-items: center;
+	margin-left: 80px;
+}
+
+body {
+    background-color: black;
+	background-image: url(sottojpg.jpg);
+	background-position: all;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#es{
+	margin-top:-10px;
+}
+
+#super{
+	margin-top:-5px;
+}
+
+#molesto{
+	margin-top:-5px;
+}
+
+#yo{
+	width: 300px;
+	height: 225px;
+}
+#his{
+	margin-top:-0px;
+}
+
+#mapa{
+	margin-top: 20px;
+}
+
+.container{
+	position: relative;
+	width: 300px;
+	height: 225px;	
+	margin: 10px auto 0 auto;
+	border: 2px solid white;
+	overflow: hidden;
+	transition: 2s;
+}
+
+.capaAuxImagen{
+	position:absolute;
+	width: 300px;
+	height: 423px;
+	opacity: 1;
+	transition:1s all ease;
+}
+
+.capaAuxTexto{
+	position: relative;
+	color:white;
+	width: 0px;
+	height: 0px;
+	margin-top: 10px;
+	margin-left: 5px;
+	display:table;
+	transition:1s all ease;
+	opacity: 0;
+	text-align:center;
+	font-size: 30px;
+}
+
+.container:hover {
+	width: 800px;
+	height: 400px;
+	border-radius:50%;
+	border: solid green 5px;
+}
+
+.container:hover .capaAuxImagen{
+	opacity: 0;
+}
+
+.container:hover .capaAuxTexto{
+	opacity: 1;
+}
+
+#redes {
+	Display:flex;
+	justify-content:flex-end;
+	background-image: url("imagenes/cesped1.jpg");
+	height:2%;
+	margin-top:-30px;
+	margin-right:-20px;
+}
+
+.socialT {
+	display:flex;
+	width:5%;		
+}
+
+#TwitterL {
+	width: 80%;
+	height:40px;
+	transition: transform .2s;
+}
+
+#TwitterL:hover {
+    transform: scale(1.5); 
+}
+
+#TwitterT {
+	width: 80%;
+	height:40px;
+	transition: transform .2s;
+}
+
+#TwitterT:hover {
+    transform: scale(1.5); 
+}
+
+.letra{
+	opacity: 0;
+}
+
+#Icono1{
+	width: 100px;
+	height:100px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+#Icono2{
+	width: 100px;
+	height:100px;
+	margin-right:30px;
+	margin-top:-150px;
+}
+
+#Icono3{
+	width: 100px;
+	height:100px;
+	margin-right:1px;
+	margin-top:-150px;
+}
+.info{
+	margin-top:-55px;
+	font-size: 150%;
+}
+
+.info2{
+	margin-top:10px;
+	font-size: 150%;
+}
+
+.info3{
+	margin-top:10px;
+	font-size: 150%;
+}
